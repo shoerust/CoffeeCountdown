@@ -1,0 +1,34 @@
+!!!
+%html
+  %head
+    %style
+      :sass
+        body
+          text-align: center
+        #countdown
+          margin: 0 auto
+          border-radius: 10px
+          text-align: center
+          padding: 3px
+          width: 300px
+          font-size: 1.0em
+          font-family: 'HelvetiaNeue-Light', Helvetica Neue Light, Helvetica Neue, Helvetica, Arial
+        .days
+          font-size: 10em
+
+    %script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8")
+    %script(src="countdown.js" type="text/javascript" charset="utf-8")
+
+    :javascript
+      $(function(){
+        window.timer = new CountDownTimer('#countdown');
+
+        $('h2').hover(function() {
+          timer.stopCounting();
+        }, function() {
+          timer.startCounting();
+        })
+      })
+
+  %body
+    #countdown(data-until="2014-05-31")

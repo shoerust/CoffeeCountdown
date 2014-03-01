@@ -1,0 +1,48 @@
+<h1>Countdown Timer</h1>
+
+<p>This is a simple Coffeescript object which creates a countdown timer on your page.<br>
+Just include it on your page and create an element with a &quot;data-until&quot; attribute equal to the date you&#39;ll be counting to, 
+in the format YYYY-MM-DD.</p>
+
+<p><code>html
+&lt;div id=&quot;countdown&quot; data-until=&quot;2012-12-21&quot; /&gt;
+</code></p>
+
+<p>When you instantiate the countdown timer, pass the selector of the countdown element.</p>
+
+<p><code>javascript
+$(function() {
+  window.timer = new CountDownTimer(&quot;#countdown&quot;)
+})
+</code></p>
+
+<h2>How do I work with this Coffeescript stuff?</h2>
+
+<h3>Easiest</h3>
+
+<p>Go to http://coffeescript.org , click on &quot;Try Coffeescript&quot;, and paste the contents of countdown.js.coffee onto the left side.  The right side will be the equivalent javascript version; just paste that into a .js file in your project.</p>
+
+<h3>Best</h3>
+
+<p>Use Middleman. http://middlemanapp.com/
+If you&#39;re doing contract work and not a full-blown app, you can still benefit from Coffeescript, Haml, and Sass.  If you&#39;ve used them, you know what a blessing they are for HTML development.  If you haven&#39;t, well, I don&#39;t really know how I&#39;d explain it.  Just give it a shot.<br>
+<code>bash
+gem install middleman
+middleman
+</code>
+Run it in the project directory and it will serve the files.  For larger projects you&#39;ll want to <code>middleman init</code> and create a middleman project.</p>
+
+<h3>And of course...</h3>
+
+<p>Nothing beats web app development in Rails.  </p>
+
+<h2>Future</h2>
+
+<p>The client had a requirement for using the .png numbers, but it would be easy and nice to just render a font&#39;s numbers, and even use a webfont.  A lot of the code in the class around image tag rendering could go away and it would easily support any look and feel of any webfont simply by changing the CSS, and even use modern CSS techniques like text-shadow to make it look good.</p>
+
+<p>This is an exercise I will leave to the user....</p>
+
+<p>Good luck!</p>
+
+<p>Released under the MIT License.
+Please see LICENSE.md for the license text.</p>
