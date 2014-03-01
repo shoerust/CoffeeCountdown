@@ -1,6 +1,6 @@
-CoffeeCountdown (adapted from [Countdown Timer](https://github.com/dukejones/countdown-timer))
+CoffeeCountdown
 ===============
-
+### (adapted from [Countdown Timer](https://github.com/dukejones/countdown-timer))
 This is a simple Coffeescript object which creates a countdown timer on your page.  
 Just include it on your page and create an element with a "data-until" attribute equal to the date you'll be counting to,
 in the format YYYY-MM-DD.
@@ -35,7 +35,10 @@ middleman
 Run it in the project directory and it will serve the files.  For larger projects you'll want to ```middleman init``` and create a middleman project.
 
 ### Also Awesome
-Download Stasis, http://stasis.io/
+Download Stasis. http://stasis.me/ 
+```$ gem install stasis
+```
+to generate servable files. You may also need to install dependent gems.
 
 Enjoy!
 
