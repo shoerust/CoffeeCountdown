@@ -35,12 +35,11 @@ middleman
 Run it in the project directory and it will serve the files.  For larger projects you'll want to ```middleman init``` and create a middleman project.
 
 ### Also Awesome
-Download Stasis. http://stasis.me/ 
-
-```$ gem install stasis
+Download Stasis. http://stasis.me/
+```bash
+$ gem install stasis
 ```
-
-to generate servable files. You may also need to install dependent gems.
+Stasis generates servable HTML/JS files. You may also need to install dependent gems.
 
 Enjoy!
 
