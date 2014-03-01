@@ -30,7 +30,7 @@ Use Middleman. http://middlemanapp.com/
 If you're doing contract work and not a full-blown app, you can still benefit from Coffeescript, Haml, and Sass.  If you've used them, you know what a blessing they are for HTML development.  If you haven't, well, I don't really know how I'd explain it.  Just give it a shot.  
 ```bash
 $ gem install middleman
-middleman
+$ middleman
 ```
 Run it in the project directory and it will serve the files.  For larger projects you'll want to ```middleman init``` and create a middleman project.
 
@@ -38,7 +38,7 @@ Run it in the project directory and it will serve the files.  For larger project
 Use Stasis. http://stasis.me/
 ```bash
 $ gem install stasis
-stasis
+$ stasis
 ```
 Stasis generates servable HTML/JS files. NB you may also need to install dependent gems.
 
