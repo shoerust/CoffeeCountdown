@@ -2,7 +2,7 @@ Countdown Timer
 ===============
 
 This is a simple Coffeescript object which creates a countdown timer on your page.  
-Just include it on your page and create an element with a "data-until" attribute equal to the date you'll be counting to, 
+Just include it on your page and create an element with a "data-until" attribute equal to the date you'll be counting to,
 in the format YYYY-MM-DD.
 
 
@@ -22,7 +22,8 @@ How do I work with this Coffeescript stuff?
 -------------------------------------------
 
 ### Easiest
-Go to http://coffeescript.org , click on "Try Coffeescript", and paste the contents of countdown.js.coffee onto the left side.  The right side will be the equivalent javascript version; just paste that into a .js file in your project.
+Go to http://coffeescript.org , click on "Try Coffeescript", and paste the
+contents of countdown.js.coffee onto the left side.  The right side will be the equivalent javascript version; just paste that into a .js file in your project.
 
 ### Best
 Use Middleman. http://middlemanapp.com/
