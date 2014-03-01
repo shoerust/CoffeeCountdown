@@ -1,4 +1,4 @@
-Countdown Timer
+CoffeeCountdown (adapted from [Countdown Timer](https://github.com/dukejones/countdown-timer))
 ===============
 
 This is a simple Coffeescript object which creates a countdown timer on your page.  
@@ -34,17 +34,10 @@ middleman
 ```
 Run it in the project directory and it will serve the files.  For larger projects you'll want to ```middleman init``` and create a middleman project.
 
-### And of course...
-Nothing beats web app development in Rails.  
+### Also Awesome
+Download Stasis, http://stasis.io/
 
-
-Future
-------
-The client had a requirement for using the .png numbers, but it would be easy and nice to just render a font's numbers, and even use a webfont.  A lot of the code in the class around image tag rendering could go away and it would easily support any look and feel of any webfont simply by changing the CSS, and even use modern CSS techniques like text-shadow to make it look good.
-
-This is an exercise I will leave to the user....
-
-Good luck!
+Enjoy!
 
 
 Released under the MIT License.
