@@ -36,8 +36,10 @@ Run it in the project directory and it will serve the files.  For larger project
 
 ### Also Awesome
 Download Stasis. http://stasis.me/ 
+
 ```$ gem install stasis
 ```
+
 to generate servable files. You may also need to install dependent gems.
 
 Enjoy!
